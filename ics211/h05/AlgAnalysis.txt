@@ -1,0 +1,9 @@
+Add method
+Best Case - O(1)- If we are adding to a blank SortedLinkedList, we use the addAtFront helper method to add the value to the front of the SortedLinkedList
+Average Case - O(n) - If we are adding to a SortedLinkedList with a lot of values, and the value we are adding is somewhere in the middle, then the method will run n/2 times, which is stil O(n)
+Worst Case - O(n) - If we are adding to a SortedLinkedList with a lot of values, and the value we are adding is at the end, then the method will run n times, therefore we have O(n)
+
+Remove method
+Best Case - O(1) - If we are removing the first value, then IndexOf only runs once, therefore we have O(1) ( or if the value does not exist in the SortedLinkedList)
+Average Case - O(n) - This will be linear time, as IndexOf will have to go through our SortedLinkedList to find the value we are removing, and IndexOf's average time is O(n/2) = O(n)
+Worst Case - O(n) - The worst case for this method would be if the value to remove is at the tail of the SortedLinkedList, as IndexOf will have to run n times where in n is the number of values in the SortedLinkedList.

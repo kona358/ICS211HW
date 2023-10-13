@@ -1,0 +1,3 @@
+Here is le file hello.txt
+It is used for hw01 ics
+It has a size of 77 bytes

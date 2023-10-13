@@ -1,0 +1,12 @@
+{
+    "java.project.referencedLibraries": [
+    "lib/**/*.jar"
+    ],
+    "configurations": [
+        {
+
+        "args": ["constitution.txt"]
+        }
+        ]
+        
+}

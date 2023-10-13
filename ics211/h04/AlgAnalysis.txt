@@ -1,0 +1,9 @@
+Add Method
+Best Case: O(n) - This is due to us using insertion sort for the algorithm. When the array is already sorted, the inner loop will run 1 time, and the inner loop n times, thus 1*n = O(n)
+Worst Case:O(n^2) -If the array is not sorted at all, then both loops will run n times thus, n*n = O(n^2)
+Average Case:O(n^2)- If the array is somewhat sorted, then both loops will still run n times, as each element still needs to be moved out of the way thus, n*n = O(n^2)
+
+Remove Method
+Best Case: O(n) - If the item we are looking for is in the first position of the array, then we only iterate once through the indexOf()loop and then only n times through the inner for loop thus, 1+n = O(n)
+Worst Case: O(n^2) - If the item we are looking for is in the last position of the array, then we iterate through the indexOf()loop n times and then n times through the inner for loop thus, n*n = O(n^2)
+Average Case:O(n^2)- If the item is in the middle of our array, then we'd still iterate n times through both the indexOf() loop and the inner for loop, thus n*n = O(n^2)
